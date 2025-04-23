@@ -117,8 +117,10 @@
         {/each}
       </div>
     {:else}
-      <p class="text-dark-green">
-        No folders yet. Click the "+" icon to create one.
-      </p>
+    <div class="flex items-center justify-center h-[calc(100vh-12rem)]">
+        <p class="text-dark-green text-center">
+          No folders yet. Click the "+" icon to create one.
+        </p>
+    </div>
     {/if}
   </div>

@@ -29,20 +29,24 @@
     }
   });
 
+  function stuk() {
+    showBookForm = true;
+  }
+
   function handleToggleForm() {
-    showBookForm = false;
+    showBookForm = false; // فقط به false تنظیم کن، toggle نکن!
   }
 </script>
 
-<div class="min-h-screen bg-gray-100 p-4 sm:p-6">
+<div class=" bg-gray-100 p-4 sm:p-6">
   <div class="max-w-7xl mx-auto">
     <div class="flex justify-between items-center mb-6">
       <h1 class="text-2xl sm:text-3xl font-bold text-dark-green">
-        BiblioApp
+        {($folders.find(f => f.id === folderId) || {}).name || 'Folder'}
       </h1>
       <button
         on:click={() => (showBookForm = true)}
-        class="bg-dark-green text-white py-2 px-4 sm:px-6 rounded-lg hover:bg-green-600 hover:scale-105 hover:shadow-lg transition-all duration-200 text-sm sm:text-base"
+        class="bg-dark-green text-white py-2 px-4 sm:px-6 rounded-lg hover:bg-green-700 transition-all duration-200 text-sm sm:text-base"
       >
         {showBookForm ? 'Cancel' : 'Add Book'}
       </button>

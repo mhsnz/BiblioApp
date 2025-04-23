@@ -108,7 +108,7 @@
   {/if}
 
   {#if error}
-    <div class="flex items-center justify-center min-h-[calc(100vh-8rem)]">
+    <div class="flex items-center justify-center h-[calc(100vh-12rem)]">
       <p class="text-dark-green text-center">{error}</p>
     </div>
   {:else if books.length > 0}
@@ -125,7 +125,7 @@
       {/each}
     </div>
   {:else}
-    <div class="flex items-center justify-center min-h-[calc(100vh-8rem)]">
+    <div class="flex items-center justify-center h-[calc(100vh-12rem)]">
       <p class="text-dark-green text-center">
         No books yet. Click the "Add Book" button to add one.
       </p>
