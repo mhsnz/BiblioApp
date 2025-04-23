@@ -1,38 +1,33 @@
-# sv
+# 📚 SvelteKit Book Rating App
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+A simple and elegant app built with **SvelteKit** to help you organize, rate, and manage your books in folders. Add books with details like title, author, rating, feelings, and images, edit or delete them, and move them between folders—all with a clean, responsive UI and offline support via a service worker.
 
-## Creating a project
+## ✨ Features
+- 📂 Organize books into custom folders.
+- 📖 Add books with details (title, author, rating, feelings, images).
+- ✏️ Edit or delete existing books.
+- 🚚 Move books between folders.
+- 🌟 Rate books with a 1-5 star system.
+- 📷 Upload images for each book.
+- 📴 Offline support with a service worker.
+- 📱 Responsive design for mobile and desktop.
 
-If you're seeing this, you've probably already done this step. Congrats!
+## 🛠️ Tech Stack
+- **SvelteKit**: For building the app with a modern framework.
+- **Tailwind CSS**: For styling the UI.
+- **localStorage**: For storing data locally.
+- **Service Worker**: For offline functionality.
+- **Vite**: For fast development and building.
 
-```bash
-# create a new project in the current directory
-npx sv create
+## 🚀 Getting Started
 
-# create a new project in my-app
-npx sv create my-app
-```
+### Prerequisites
+Make sure you have the following installed:
+- [Node.js](https://nodejs.org/) (v16 or higher)
+- [npm](https://www.npmjs.com/) (or [pnpm](https://pnpm.io/), [yarn](https://yarnpkg.com/))
 
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+### Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/sveltekit-book-rating-app.git
+   cd sveltekit-book-rating-app
