@@ -29,5 +29,5 @@ Make sure you have the following installed:
 ### Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/sveltekit-book-rating-app.git
+   git clone https://github.com/mhsnz/BiblioApp.git
    cd sveltekit-book-rating-app
