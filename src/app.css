@@ -1,0 +1,48 @@
+@import 'tailwindcss';
+/* src/app.css */
+
+/* Import TailwindCSS base, components, and utilities */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Define custom styles */
+.text-dark-green {
+  color: #1A3C34;
+}
+
+.bg-dark-green {
+  background-color: #1A3C34;
+}
+
+.border-dark-green {
+  border-color: #1A3C34;
+}
+
+.text-light-green {
+  color: #E0F2E9;
+}
+
+.bg-light-green {
+  background-color: #E0F2E9;
+}
+
+.text-gold {
+  color: #FFD700;
+}
+
+.text-dark-green-hover:hover {
+  color: #14532D;
+}
+
+.bg-light-green-hover:hover {
+  background-color: #E0F2E9;
+}
+
+.text-gold-hover:hover {
+  color: #E5C100;
+}
+
+.bg-gray-light {
+  background-color: #F3F4F6; /* Matches TailwindCSS's bg-gray-100 */
+}
