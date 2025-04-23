@@ -118,7 +118,7 @@
 		  </button>
 		{/if}
 		<a href="/" class="text-2xl sm:text-3xl font-bold text-center flex-1" style="font-family: 'Brush Script MT', cursive; font-style: italic;">
-		  My Reading Hub
+		  BibilioApp
 		</a>
 	  </div>
 	  <div class="flex items-center space-x-4">
