@@ -1,3 +1,4 @@
+<!-- src/lib/components/book/BookCard.svelte -->
 <script>
   import { folders } from '$lib/stores/folders.js';
 
