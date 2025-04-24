@@ -1,4 +1,3 @@
-<!-- src/lib/components/ui/SearchBar.svelte -->
 <script>
     export let searchTerm = '';
     export let placeholder = 'Search...';

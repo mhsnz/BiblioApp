@@ -1,4 +1,3 @@
-<!-- src/lib/components/folder/FolderActions.svelte -->
 <script>
     import { onMount } from 'svelte';
     import { folders } from '../../stores/folders.js';

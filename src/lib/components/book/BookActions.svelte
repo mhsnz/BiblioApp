@@ -1,4 +1,3 @@
-<!-- src/lib/components/book/BookActions.svelte -->
 <script>
     // Reusable actions for book (edit, delete, move)
     import Button from '../ui/Button.svelte';

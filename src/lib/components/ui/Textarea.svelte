@@ -1,4 +1,3 @@
-<!-- src/lib/components/ui/Textarea.svelte -->
 <script>
     // Reusable textarea component
     export let label = '';

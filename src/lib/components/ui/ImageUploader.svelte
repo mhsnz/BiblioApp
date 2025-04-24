@@ -1,4 +1,3 @@
-<!-- src/lib/components/ui/ImageUploader.svelte -->
 <script>
     export let images = [];
     let imageInput;

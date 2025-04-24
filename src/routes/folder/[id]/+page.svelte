@@ -1,4 +1,3 @@
-<!-- src/routes/folder/[id]/+page.svelte -->
 <script>
   import { onMount, createEventDispatcher } from 'svelte';
   import { folders } from '$lib/stores/folders.js';
@@ -34,7 +33,7 @@
   }
 
   function handleToggleForm() {
-    showBookForm = false; // فقط به false تنظیم کن، toggle نکن!
+    showBookForm = false; 
   }
 </script>
 

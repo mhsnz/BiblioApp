@@ -1,4 +1,3 @@
-<!-- src/lib/components/book/BookForm.svelte -->
 <script>
   import { onMount, onDestroy } from 'svelte';
   import { createEventDispatcher } from 'svelte';

@@ -1,4 +1,3 @@
-// src/utils/storage.js
 export function saveToStorage(key, value) {
     try {
       localStorage.setItem(key, JSON.stringify(value));

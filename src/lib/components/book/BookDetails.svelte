@@ -1,4 +1,3 @@
-<!-- src/lib/components/book/BookDetails.svelte -->
 <script>
     import StarRating from '../ui/StarRating.svelte';
   

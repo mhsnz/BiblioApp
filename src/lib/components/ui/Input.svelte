@@ -1,4 +1,3 @@
-<!-- src/lib/components/ui/Input.svelte -->
 <script>
     // Reusable input component
     export let label = '';

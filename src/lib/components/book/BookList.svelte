@@ -1,4 +1,3 @@
-<!-- src/lib/components/book/BookList.svelte -->
 <script>
   import { onMount, createEventDispatcher } from 'svelte';
   import { folders } from '$lib/stores/folders.js';

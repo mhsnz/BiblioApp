@@ -1,4 +1,3 @@
-<!-- src/lib/components/folder/FolderItem.svelte -->
 <script>
     import { fade } from 'svelte/transition';
     import FolderActions from './FolderActions.svelte';

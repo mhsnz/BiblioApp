@@ -1,4 +1,3 @@
-<!-- src/lib/components/ui/Select.svelte -->
 <script>
     // Reusable select component
     export let label = '';

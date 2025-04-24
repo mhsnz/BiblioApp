@@ -1,4 +1,3 @@
-<!-- src/lib/components/book/BookQuestions.svelte -->
 <script>
     // Component for book-related questions
     export let days = '';

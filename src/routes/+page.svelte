@@ -1,4 +1,3 @@
-<!-- src/routes/+page.svelte -->
 <script>
     import { onMount } from 'svelte';
     import { folders } from '../lib/stores/folders.js';

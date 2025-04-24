@@ -1,6 +1,5 @@
-// src/stores/folders.js
 import { writable } from 'svelte/store';
-import { getFromStorage } from '$lib/utils/storage.js'; // تغییر مسیر به $lib
+import { getFromStorage } from '$lib/utils/storage.js'; 
 
 const initialFolders = getFromStorage('bookFolders') || [];
 

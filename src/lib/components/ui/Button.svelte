@@ -1,4 +1,3 @@
-<!-- src/lib/components/ui/Button.svelte -->
 <script>
   export let variant = 'primary';
   export let type = 'button';

@@ -1,4 +1,3 @@
-<!-- src/lib/components/ui/StarRating.svelte -->
 <script>
     // Reusable star rating component
     export let rating = 3;

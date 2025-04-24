@@ -1,5 +1,3 @@
-// src/lib/types.js
-// Type definitions for data structures
 export const Book = {
     id: String,
     title: String,
