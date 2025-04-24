@@ -116,7 +116,7 @@
 			</svg>
 		  </button>
 		{/if}
-		<a href="/" class="text-2xl sm:text-3xl font-bold text-center flex-1" style="font-family: 'Brush Script MT', cursive; font-style: italic;">
+		<a href="/" class="text-2xl sm:text-3xl font-bold text-center flex-1" style="font-family: fantsy; font-style: italic;">
 		  BibilioApp
 		</a>
 	  </div>
