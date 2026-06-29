@@ -117,7 +117,7 @@
 		  </button>
 		{/if}
 		<a href="/" class="text-2xl sm:text-3xl font-bold text-center flex-1" style="font-family: fantsy; font-style: italic;">
-		  BibilioApp
+		  BiblioApp
 		</a>
 	  </div>
 	  <div class="flex items-center space-x-4">
